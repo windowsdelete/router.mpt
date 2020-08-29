@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Покупка - MikroTik Lab</title>
+  <!-- MDB icon -->
+  <link rel="icon" type="image/png" href="https://i.mt.lv/img/mt/v2/favicon.png"/>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .carousel{
+      height: 60vh;
+    }
+    @media (max-width: 740px){
+    html,
+    body,
+    header,
+    .carousel{
+      height: 100vh;
+    }
+    @media (min-width: 800px) and (max-width: 850px){
+      html,
+      body,
+      header,
+      .carousel{
+        height: 100vh;
+      }
+    }
+}
+  </style>
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+  <div class="container">
+      <a href="/" class="navbar-brand">
+        <strong class="black-text">MikroTik</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-lable="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarContent"><ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/os.html">RouterOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">О нас</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</br>
+  <main>
+    <div class="container dark-grey-text mt-5">
+      <div class="row d-flex justify-content-center wow fadeIn">
+        <div class="col-md-6 text-center">
+          <h2 class="my-2 h2">Покупка оборудования</h2>
+          <img src="https://i.mt.lv/img/mt/v2/head/wap_lte.jpg" class="img-fluid">
+            <form class="text-center border border-light p-5" action="/success.html">
+                <p class="h4 mb-4">Свяжитесь с нами</p>
+
+                <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Имя">
+
+                <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                <input type="phone" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Телефон">
+
+                <label>Выберите модель оборудования</label>
+                <select class="browser-default custom-select mb-4">
+                    <option value="" disabled>Выбор оборудования</option>
+                    <option value="1" selected>hEX lite</option>
+                    <option value="2">hEX PoE lite</option>
+                    <option value="3">CSS326-24G-2S+RM</option>
+                    <option value="4">CRS106-1C-5S</option>
+                    <option value="5">RB260GS</option>
+                    <option value="6">Audience</option>
+                    <option value="7">RB951Ui-2HnD</option>
+                    <option value="8">hAP mini</option>
+                </select>
+
+                <div class="form-group">
+                    <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Пожелания (необязательно)"></textarea>
+                </div>
+                <button class="btn btn-primary btn-block" type="submit">Отправить заявку</button>
+            </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+    <hr class="my-4">
+    <div class="pb-4">
+      <a href="https://vk.com/mikrotik_ru" target="_blank">
+        <i class="fab fa-vk mr-3"></i>
+      </a>
+      <a href="https://twitter.com/mikrotik_com" target="_blank">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+      <a href="https://www.instagram.com/mikrotik.world/" target="_blank">
+        <i class="fab fa-instagram mr-3"></i>
+      </a>
+    </div>
+    <div class="footer-copyright py-3">
+      STREAMERDAUN COPYRIGHT 2020
+    </div>
+  </footer>
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+</body>
+</html>
